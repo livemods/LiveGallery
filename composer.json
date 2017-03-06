@@ -1,0 +1,54 @@
+{
+  "name": "LiveGallery",
+  "description": "A gallery",
+  "extra": {
+    "setting_url": "action=admin;area=lgaldash"
+  },
+  "authors": [
+    {
+      "name": "John Rayes",
+      "email": "live627@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "url": "https://github.com/live627/elkarte-addon-helper.git",
+      "type": "vcs"
+    },
+    {
+      "url": "https://github.com/elkarte/Elkarte.git",
+      "type": "vcs"
+    },
+    {
+      "url": "https://github.com/JamesHeinrich/getID3.git",
+      "type": "vcs"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "live627/elkarte-addon-helper": "dev-develop",
+    "james-heinrich/getid3": "^1.9",
+    "imagecow/imagecow": "^2.1",
+    "symfony/filesystem": "^3.1"
+  },
+  "suggest": {
+    "guzzlehttp/promises": "1.2.0",
+    "phpextra/zip-stream": "dev-master",
+    "macx/rfc-4122-uuid": "1.0.0",
+    "bheller/images-generator": "1.0.1",
+    "fzaninotto/streamer": "0.0.1",
+    "phpextra/event-manager": "4.0.0",
+    "dragooon/yaml-file-config": "0.1.0",
+    "onedal/php-sqlite-logger": "v1.0.1",
+    "nilportugues/sql-query-builder": "^1.5",
+    "symfony/process": "^3.1",
+    "react/promise": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "live627\\LiveGallery\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
